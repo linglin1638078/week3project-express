@@ -1,0 +1,27 @@
+{
+  "name": "week3project-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "movie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon movie.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linglin1638078/week3project-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linglin1638078/week3project-express/issues"
+  },
+  "homepage": "https://github.com/linglin1638078/week3project-express#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "volleyball": "^1.5.1"
+  }
+}

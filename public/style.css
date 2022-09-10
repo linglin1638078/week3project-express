@@ -1,0 +1,64 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./background.jpeg);
+    background-size:cover;
+
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    margin: 15px 0 0 0;
+    font-weight: bold;
+  }
+  
+  small {
+    color:slategrey;
+  }
+  
+  header {
+    background-color:dimgrey;
+    color: white;
+    padding: 3px;
+    height: 50px;
+    font-size: xx-large;
+  }
+  
+  header > img {
+    margin-right: 10px;
+    width: 50px;
+    height: 100%;
+    vertical-align: bottom;
+  }
+  
+  .movies-list {
+    background-color:lavenderblush;
+    width: 85%;
+    margin: 12px auto;
+    padding-bottom: 25px;
+  }
+  
+  
+  .movies-item {
+    padding: 0 15px;
+  }
+  
+  .movies-position {
+    color:darkgray;
+  }
+  
+  .movies-info {
+    margin-left: 40px;
+  }
+
+  .not-found > img{
+    width: 100%;
+    height: 100%;
+  }
